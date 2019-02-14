@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Epic Quotes</string>
+
+    <string name="hello_world">Epic Quotes</string>
+    <string name="action_settings">Settings</string>
+    <string name="fb">173454032991902</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_full_image"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile">Profile</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Feeds</item>
+        <item>Quote of the Day</item>
+        <item>Friendship</item>
+        <item>Funny</item>
+        <item>Inspirational</item>
+        <item>Life</item>
+        <item>Love</item>
+        <item>TV + Movies</item>
+        <item>Family</item>
+        <item>Shop</item>
+        <item>Submit</item>
+        <item>Share</item>
+        <item>Feedback</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>

@@ -1,0 +1,71 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@android:color/background_light">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cover"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile"
+            android:background="#ffffff"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="bottom|left"
+            android:adjustViewBounds="true"
+
+            />
+        <ProgressBar android:indeterminate="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/progress" style="?android:attr/progressBarStyle"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@android:color/background_light"
+            android:visibility="invisible"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:layout_margin="20dp"
+
+            android:id="@+id/name"/>
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_below="@id/progress"
+            android:layout_margin="5dp"
+
+
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+
+</RelativeLayout>
+</ScrollView>
